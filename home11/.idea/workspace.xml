@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67fb4b98-3492-44d5-8a3b-ecfa6930eafb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/path/LeastPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/path/LeastTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/path/LeastUnpleasantValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/path/MyPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/path/MyRailwaySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/path/NodesConect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/path/NodesNet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/path/SearchFromNet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/path/SearchNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/path/UnpleasantValue.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="homework_11_guidebook" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/path/MyRailwaySystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6403">
+              <caret line="346" column="41" selection-start-line="346" selection-start-column="41" selection-end-line="346" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/path/NodesConect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/path/NodesNet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="124" column="22" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/path">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>path</OriginalElement>
+              <nodes>
+                <node x="0.0" y="1078.0">path.UnpleasantValue</node>
+                <node x="517.0579044117649" y="585.0">path.SearchFromNet</node>
+                <node x="1225.0" y="447.0">path.SearchNode</node>
+                <node x="400.0000000000001" y="1090.0">path.LeastTransfer</node>
+                <node x="988.0000000000001" y="2015.0">path.Main</node>
+                <node x="486.30790441176487" y="0.0">path.NodesNet</node>
+                <node x="1095.25" y="1484.5">path.MyPath</node>
+                <node x="669.0000000000001" y="1078.0">path.LeastUnpleasantValue</node>
+                <node x="1099.0" y="1090.0">path.LeastPrice</node>
+                <node x="775.2500000000001" y="1312.0">path.MyRailwaySystem</node>
+                <node x="1276.4329044117649" y="92.0">path.NodesConect</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="path.LeastTransfer" target="path.SearchFromNet">
+                  <point x="-62.25" y="-50.0" />
+                  <point x="462.2500000000001" y="1048.0" />
+                  <point x="617.9954044117649" y="1048.0" />
+                  <point x="-60.5625" y="142.5" />
+                </edge>
+                <edge source="path.LeastUnpleasantValue" target="path.SearchFromNet">
+                  <point x="102.5" y="-62.0" />
+                  <point x="976.5000000000001" y="1048.0" />
+                  <point x="739.1204044117649" y="1048.0" />
+                  <point x="60.5625" y="142.5" />
+                </edge>
+                <edge source="path.Main" target="path.MyPath">
+                  <point x="43.75" y="-26.5" />
+                  <point x="1119.25" y="1990.0" />
+                  <point x="1225.75" y="1990.0" />
+                  <point x="0.0" y="154.0" />
+                </edge>
+                <edge source="path.SearchFromNet" target="path.NodesConect">
+                  <point x="121.125" y="-142.5" />
+                  <point x="799.6829044117649" y="407.0" />
+                  <point x="1318.2454044117649" y="407.0" />
+                  <point x="-69.6875" y="96.5" />
+                </edge>
+                <edge source="path.MyRailwaySystem" target="path.NodesConect">
+                  <point x="141.17647058823536" y="-326.5" />
+                  <point x="1066.4264705882356" y="1292.0" />
+                  <point x="1584.5" y="1292.0" />
+                  <point x="1584.5" y="397.0" />
+                  <point x="1485.4954044117649" y="397.0" />
+                  <point x="97.5625" y="96.5" />
+                </edge>
+                <edge source="path.Main" target="path.MyRailwaySystem">
+                  <point x="-43.75" y="-26.5" />
+                  <point x="1031.75" y="1990.0" />
+                  <point x="925.2500000000001" y="1990.0" />
+                  <point x="0.0" y="326.5" />
+                </edge>
+                <edge source="path.UnpleasantValue" target="path.MyRailwaySystem">
+                  <point x="47.5" y="62.0" />
+                  <point x="237.5" y="1272.0" />
+                  <point x="819.3676470588235" y="1272.0" />
+                  <point x="-105.88235294117658" y="-326.5" />
+                </edge>
+                <edge source="path.UnpleasantValue" target="path.SearchFromNet">
+                  <point x="-95.0" y="-62.0" />
+                  <point x="95.0" y="1028.0" />
+                  <point x="537.2454044117649" y="1028.0" />
+                  <point x="-141.3125" y="142.5" />
+                </edge>
+                <edge source="path.LeastUnpleasantValue" target="path.MyRailwaySystem">
+                  <point x="153.75" y="62.0" />
+                  <point x="1027.75" y="1222.0" />
+                  <point x="942.8970588235295" y="1222.0" />
+                  <point x="17.64705882352939" y="-326.5" />
+                </edge>
+                <edge source="path.SearchFromNet" target="path.NodesNet">
+                  <point x="-121.125" y="-142.5" />
+                  <point x="557.4329044117649" y="427.0" />
+                  <point x="542.0579044117649" y="427.0" />
+                  <point x="-55.75" y="188.5" />
+                </edge>
+                <edge source="path.MyRailwaySystem" target="path.UnpleasantValue">
+                  <point x="-123.52941176470597" y="-326.5" />
+                  <point x="801.7205882352941" y="1282.0" />
+                  <point x="142.5" y="1282.0" />
+                  <point x="-47.5" y="62.0" />
+                </edge>
+                <edge source="path.LeastPrice" target="path.NodesConect">
+                  <point x="0.0" y="-50.0" />
+                  <point x="1214.5" y="417.0" />
+                  <point x="1346.1204044117649" y="417.0" />
+                  <point x="-41.8125" y="96.5" />
+                </edge>
+                <edge source="path.MyRailwaySystem" target="path.LeastTransfer">
+                  <point x="-70.58823529411768" y="-326.5" />
+                  <point x="854.6617647058824" y="1252.0" />
+                  <point x="462.2500000000001" y="1252.0" />
+                  <point x="-62.25" y="50.0" />
+                </edge>
+                <edge source="path.LeastPrice" target="path.SearchFromNet">
+                  <point x="-46.200000000000045" y="-50.0" />
+                  <point x="1168.3000000000002" y="1028.0" />
+                  <point x="819.8704044117649" y="1028.0" />
+                  <point x="141.3125" y="142.5" />
+                </edge>
+                <edge source="path.LeastPrice" target="path.SearchNode">
+                  <point x="92.40000000000009" y="-50.0" />
+                  <point x="1306.9" y="1058.0" />
+                  <point x="1347.625" y="1058.0" />
+                  <point x="-40.875" y="280.5" />
+                </edge>
+                <edge source="path.SearchNode" target="path.NodesConect">
+                  <point x="-81.75" y="-280.5" />
+                  <point x="1306.75" y="427.0" />
+                  <point x="1373.9954044117649" y="427.0" />
+                  <point x="-13.9375" y="96.5" />
+                </edge>
+                <edge source="path.MyRailwaySystem" target="path.LeastPrice">
+                  <point x="52.94117647058829" y="-326.5" />
+                  <point x="978.1911764705884" y="1242.0" />
+                  <point x="1272.25" y="1242.0" />
+                  <point x="57.75" y="50.0" />
+                </edge>
+                <edge source="path.MyRailwaySystem" target="path.SearchNode">
+                  <point x="70.58823529411768" y="-326.5" />
+                  <point x="995.8382352941178" y="1252.0" />
+                  <point x="1464.75" y="1252.0" />
+                  <point x="1464.75" y="1058.0" />
+                  <point x="1429.375" y="1058.0" />
+                  <point x="40.875" y="280.5" />
+                </edge>
+                <edge source="path.MyRailwaySystem" target="path.LeastUnpleasantValue">
+                  <point x="-17.647058823529505" y="-326.5" />
+                  <point x="907.6029411764706" y="1222.0" />
+                  <point x="822.7500000000001" y="1222.0" />
+                  <point x="-51.25" y="62.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.3130718954248366" x="799.0" y="143.64718162839245" />
+              <SelectedNodes>
+                <node>path.LeastPrice</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/path/UnpleasantValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/path/SearchFromNet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#491#492#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/path/SearchNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2717">
+              <caret line="159" selection-start-line="159" selection-end-line="159" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/path/LeastPrice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/path/LeastTransfer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/path/LeastUnpleasantValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="28" column="13" selection-start-line="16" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/path/LeastUnplasantValue.java" />
+        <option value="$PROJECT_DIR$/src/path/NodesConect.java" />
+        <option value="$PROJECT_DIR$/src/path/MyPath.java" />
+        <option value="$PROJECT_DIR$/src/path/Main.java" />
+        <option value="$PROJECT_DIR$/src/path/SearchFromNet.java" />
+        <option value="$PROJECT_DIR$/src/path/LeastPrice.java" />
+        <option value="$PROJECT_DIR$/src/path/LeastTransfer.java" />
+        <option value="$PROJECT_DIR$/src/path/LeastUnpleasantValue.java" />
+        <option value="$PROJECT_DIR$/src/path/NodesNet.java" />
+        <option value="$PROJECT_DIR$/src/path/CountBlock.java" />
+        <option value="$PROJECT_DIR$/src/path/SearchNode.java" />
+        <option value="$PROJECT_DIR$/src/path/MyRailwaySystem.java" />
+        <option value="$PROJECT_DIR$/src/path/UnpleasantValue.java" />
+        <option value="$PROJECT_DIR$/src/MyGraph_JML_Data/addMapNode__int_n1__int_n2__0__n1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="3" />
+    <option name="width" value="1227" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="homework_11_guidebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework_11_guidebook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework_11_guidebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework_11_guidebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework_11_guidebook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework_11_guidebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="path" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558493902138" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mujiangtao\git\homework_11_guidebook\src\path" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="path.Main" />
+      <module name="homework_11_guidebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="path.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67fb4b98-3492-44d5-8a3b-ecfa6930eafb" name="Default Changelist" comment="" />
+      <created>1557626637702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557626637702</updated>
+      <workItem from="1557626640577" duration="8163000" />
+      <workItem from="1557670327327" duration="8033000" />
+      <workItem from="1557721291547" duration="19888000" />
+      <workItem from="1557760383048" duration="37000" />
+      <workItem from="1557763063398" duration="3463000" />
+      <workItem from="1557797569212" duration="6281000" />
+      <workItem from="1557812589775" duration="1599000" />
+      <workItem from="1557820101282" duration="617000" />
+      <workItem from="1558441494663" duration="596000" />
+      <workItem from="1558442500672" duration="1423000" />
+      <workItem from="1558487652292" duration="8000" />
+      <workItem from="1558491447787" duration="136000" />
+      <workItem from="1558491670553" duration="223000" />
+      <workItem from="1558493868150" duration="213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50680000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865228" visible="true" weight="0.35327405" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5013477" side_tool="true" weight="0.34117648" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Metrics" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.sixrr.metrics.MetricsReloaded">
+    <option name="selectedProfile" value="" />
+    <option name="autoscroll" value="false" />
+    <option name="showOnlyWarnings" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../homework_10_guidebook/src/path/MyPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../homework_10_guidebook/src/path/MyGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="138" column="29" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/2019/homework11/specs-homework-3-opensource/src/main/java/com/oocourse/specs3/models/Graph.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/2019/homework11/specs-homework-3-opensource/src/main/java/com/oocourse/specs3/models/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="42" column="86" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path/MyPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/2019/homework11/specs-homework-3-opensource/src/main/java/com/oocourse/specs3/models/RailwaySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="81" column="84" lean-forward="true" selection-start-line="81" selection-start-column="84" selection-end-line="81" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path/CountBlock.java" />
+    <entry file="file://$PROJECT_DIR$/src/MyGraph_JML_Data/addMapNode__int_n1__int_n2__0__n1.java" />
+    <entry file="file://$PROJECT_DIR$/src/path/MyRailwaySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6403">
+          <caret line="346" column="41" selection-start-line="346" selection-start-column="41" selection-end-line="346" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path/NodesConect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path/UnpleasantValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path/SearchFromNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path/SearchNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2717">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path/LeastPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path/LeastTransfer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path/LeastUnpleasantValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="28" column="13" selection-start-line="16" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path/NodesNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="124" column="22" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/path">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>path</OriginalElement>
+          <nodes>
+            <node x="0.0" y="1078.0">path.UnpleasantValue</node>
+            <node x="517.0579044117649" y="585.0">path.SearchFromNet</node>
+            <node x="1225.0" y="447.0">path.SearchNode</node>
+            <node x="400.0000000000001" y="1090.0">path.LeastTransfer</node>
+            <node x="988.0000000000001" y="2015.0">path.Main</node>
+            <node x="486.30790441176487" y="0.0">path.NodesNet</node>
+            <node x="1095.25" y="1484.5">path.MyPath</node>
+            <node x="669.0000000000001" y="1078.0">path.LeastUnpleasantValue</node>
+            <node x="1099.0" y="1090.0">path.LeastPrice</node>
+            <node x="775.2500000000001" y="1312.0">path.MyRailwaySystem</node>
+            <node x="1276.4329044117649" y="92.0">path.NodesConect</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="path.LeastTransfer" target="path.SearchFromNet">
+              <point x="-62.25" y="-50.0" />
+              <point x="462.2500000000001" y="1048.0" />
+              <point x="617.9954044117649" y="1048.0" />
+              <point x="-60.5625" y="142.5" />
+            </edge>
+            <edge source="path.LeastUnpleasantValue" target="path.SearchFromNet">
+              <point x="102.5" y="-62.0" />
+              <point x="976.5000000000001" y="1048.0" />
+              <point x="739.1204044117649" y="1048.0" />
+              <point x="60.5625" y="142.5" />
+            </edge>
+            <edge source="path.Main" target="path.MyPath">
+              <point x="43.75" y="-26.5" />
+              <point x="1119.25" y="1990.0" />
+              <point x="1225.75" y="1990.0" />
+              <point x="0.0" y="154.0" />
+            </edge>
+            <edge source="path.SearchFromNet" target="path.NodesConect">
+              <point x="121.125" y="-142.5" />
+              <point x="799.6829044117649" y="407.0" />
+              <point x="1318.2454044117649" y="407.0" />
+              <point x="-69.6875" y="96.5" />
+            </edge>
+            <edge source="path.MyRailwaySystem" target="path.NodesConect">
+              <point x="141.17647058823536" y="-326.5" />
+              <point x="1066.4264705882356" y="1292.0" />
+              <point x="1584.5" y="1292.0" />
+              <point x="1584.5" y="397.0" />
+              <point x="1485.4954044117649" y="397.0" />
+              <point x="97.5625" y="96.5" />
+            </edge>
+            <edge source="path.Main" target="path.MyRailwaySystem">
+              <point x="-43.75" y="-26.5" />
+              <point x="1031.75" y="1990.0" />
+              <point x="925.2500000000001" y="1990.0" />
+              <point x="0.0" y="326.5" />
+            </edge>
+            <edge source="path.UnpleasantValue" target="path.MyRailwaySystem">
+              <point x="47.5" y="62.0" />
+              <point x="237.5" y="1272.0" />
+              <point x="819.3676470588235" y="1272.0" />
+              <point x="-105.88235294117658" y="-326.5" />
+            </edge>
+            <edge source="path.UnpleasantValue" target="path.SearchFromNet">
+              <point x="-95.0" y="-62.0" />
+              <point x="95.0" y="1028.0" />
+              <point x="537.2454044117649" y="1028.0" />
+              <point x="-141.3125" y="142.5" />
+            </edge>
+            <edge source="path.LeastUnpleasantValue" target="path.MyRailwaySystem">
+              <point x="153.75" y="62.0" />
+              <point x="1027.75" y="1222.0" />
+              <point x="942.8970588235295" y="1222.0" />
+              <point x="17.64705882352939" y="-326.5" />
+            </edge>
+            <edge source="path.SearchFromNet" target="path.NodesNet">
+              <point x="-121.125" y="-142.5" />
+              <point x="557.4329044117649" y="427.0" />
+              <point x="542.0579044117649" y="427.0" />
+              <point x="-55.75" y="188.5" />
+            </edge>
+            <edge source="path.MyRailwaySystem" target="path.UnpleasantValue">
+              <point x="-123.52941176470597" y="-326.5" />
+              <point x="801.7205882352941" y="1282.0" />
+              <point x="142.5" y="1282.0" />
+              <point x="-47.5" y="62.0" />
+            </edge>
+            <edge source="path.LeastPrice" target="path.NodesConect">
+              <point x="0.0" y="-50.0" />
+              <point x="1214.5" y="417.0" />
+              <point x="1346.1204044117649" y="417.0" />
+              <point x="-41.8125" y="96.5" />
+            </edge>
+            <edge source="path.MyRailwaySystem" target="path.LeastTransfer">
+              <point x="-70.58823529411768" y="-326.5" />
+              <point x="854.6617647058824" y="1252.0" />
+              <point x="462.2500000000001" y="1252.0" />
+              <point x="-62.25" y="50.0" />
+            </edge>
+            <edge source="path.LeastPrice" target="path.SearchFromNet">
+              <point x="-46.200000000000045" y="-50.0" />
+              <point x="1168.3000000000002" y="1028.0" />
+              <point x="819.8704044117649" y="1028.0" />
+              <point x="141.3125" y="142.5" />
+            </edge>
+            <edge source="path.LeastPrice" target="path.SearchNode">
+              <point x="92.40000000000009" y="-50.0" />
+              <point x="1306.9" y="1058.0" />
+              <point x="1347.625" y="1058.0" />
+              <point x="-40.875" y="280.5" />
+            </edge>
+            <edge source="path.SearchNode" target="path.NodesConect">
+              <point x="-81.75" y="-280.5" />
+              <point x="1306.75" y="427.0" />
+              <point x="1373.9954044117649" y="427.0" />
+              <point x="-13.9375" y="96.5" />
+            </edge>
+            <edge source="path.MyRailwaySystem" target="path.LeastPrice">
+              <point x="52.94117647058829" y="-326.5" />
+              <point x="978.1911764705884" y="1242.0" />
+              <point x="1272.25" y="1242.0" />
+              <point x="57.75" y="50.0" />
+            </edge>
+            <edge source="path.MyRailwaySystem" target="path.SearchNode">
+              <point x="70.58823529411768" y="-326.5" />
+              <point x="995.8382352941178" y="1252.0" />
+              <point x="1464.75" y="1252.0" />
+              <point x="1464.75" y="1058.0" />
+              <point x="1429.375" y="1058.0" />
+              <point x="40.875" y="280.5" />
+            </edge>
+            <edge source="path.MyRailwaySystem" target="path.LeastUnpleasantValue">
+              <point x="-17.647058823529505" y="-326.5" />
+              <point x="907.6029411764706" y="1222.0" />
+              <point x="822.7500000000001" y="1222.0" />
+              <point x="-51.25" y="62.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.3130718954248366" x="799.0" y="143.64718162839245" />
+          <SelectedNodes>
+            <node>path.LeastPrice</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>homework_11_guidebook</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

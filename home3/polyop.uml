@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>polyop</OriginalElement>
+  <nodes>
+    <node x="297.0" y="899.0">polyop.DerivationMain</node>
+    <node x="0.0" y="754.0">polyop.SinNesting</node>
+    <node x="677.75" y="192.0">polyop.Factor</node>
+    <node x="556.0" y="754.0">polyop.ConstantFactor</node>
+    <node x="356.75" y="226.5">polyop.Term</node>
+    <node x="291.0" y="754.0">polyop.CosNesting</node>
+    <node x="818.0" y="765.5">polyop.SinFactor</node>
+    <node x="0.0" y="899.0">polyop.FactorConstruction</node>
+    <node x="1278.0" y="754.0">polyop.ExpressionFactor</node>
+    <node x="533.25" y="0.0">polyop.Derivation</node>
+    <node x="64.75" y="146.0">polyop.DerivationExpression</node>
+    <node x="1046.0" y="765.5">polyop.CosFactor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="polyop.SinFactor" target="polyop.Derivation">
+      <point x="52.0" y="-38.5" />
+      <point x="974.0" y="734.0" />
+      <point x="979.75" y="734.0" />
+      <point x="979.75" y="116.0" />
+      <point x="657.4722222222223" y="116.0" />
+      <point x="38.222222222222285" y="38.0" />
+    </edge>
+    <edge source="polyop.CosFactor" target="polyop.Factor">
+      <point x="-53.0" y="-38.5" />
+      <point x="1099.0" y="724.0" />
+      <point x="866.75" y="724.0" />
+      <point x="63.0" y="223.0" />
+    </edge>
+    <edge source="polyop.SinNesting" target="polyop.Derivation">
+      <point x="-54.25" y="-50.0" />
+      <point x="54.25" y="96.0" />
+      <point x="542.8055555555555" y="96.0" />
+      <point x="-76.44444444444446" y="38.0" />
+    </edge>
+    <edge source="polyop.SinFactor" target="polyop.Factor">
+      <point x="-52.0" y="-38.5" />
+      <point x="870.0" y="734.0" />
+      <point x="824.75" y="734.0" />
+      <point x="21.0" y="223.0" />
+    </edge>
+    <edge source="polyop.CosNesting" target="polyop.Factor">
+      <point x="55.25" y="-50.0" />
+      <point x="456.75" y="724.0" />
+      <point x="740.75" y="724.0" />
+      <point x="-63.0" y="223.0" />
+    </edge>
+    <edge source="polyop.ConstantFactor" target="polyop.Factor">
+      <point x="60.5" y="-50.0" />
+      <point x="737.5" y="734.0" />
+      <point x="782.75" y="734.0" />
+      <point x="-21.0" y="223.0" />
+    </edge>
+    <edge source="polyop.DerivationExpression" target="polyop.Derivation">
+      <point x="0.0" y="-269.0" />
+      <point x="200.25" y="106.0" />
+      <point x="561.9166666666666" y="106.0" />
+      <point x="-57.33333333333337" y="38.0" />
+    </edge>
+    <edge source="polyop.ExpressionFactor" target="polyop.Derivation">
+      <point x="62.75" y="-50.0" />
+      <point x="1466.25" y="96.0" />
+      <point x="695.6944444444445" y="96.0" />
+      <point x="76.44444444444446" y="38.0" />
+    </edge>
+    <edge source="polyop.Factor" target="polyop.Derivation">
+      <point x="0.0" y="-223.0" />
+      <point x="803.75" y="126.0" />
+      <point x="638.3611111111111" y="126.0" />
+      <point x="19.111111111111086" y="38.0" />
+    </edge>
+    <edge source="polyop.ExpressionFactor" target="polyop.Factor">
+      <point x="-62.75" y="-50.0" />
+      <point x="1340.75" y="714.0" />
+      <point x="908.75" y="714.0" />
+      <point x="105.0" y="223.0" />
+    </edge>
+    <edge source="polyop.CosFactor" target="polyop.Derivation">
+      <point x="53.0" y="-38.5" />
+      <point x="1205.0" y="106.0" />
+      <point x="676.5833333333334" y="106.0" />
+      <point x="57.33333333333337" y="38.0" />
+    </edge>
+    <edge source="polyop.SinNesting" target="polyop.Factor">
+      <point x="54.25" y="-50.0" />
+      <point x="162.75" y="714.0" />
+      <point x="698.75" y="714.0" />
+      <point x="-105.0" y="223.0" />
+    </edge>
+    <edge source="polyop.ConstantFactor" target="polyop.Derivation">
+      <point x="-60.5" y="-50.0" />
+      <point x="616.5" y="704.0" />
+      <point x="619.25" y="704.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="polyop.CosNesting" target="polyop.Derivation">
+      <point x="-55.25" y="-50.0" />
+      <point x="346.25" y="116.0" />
+      <point x="581.0277777777778" y="116.0" />
+      <point x="-38.22222222222217" y="38.0" />
+    </edge>
+    <edge source="polyop.Term" target="polyop.Derivation">
+      <point x="0.0" y="-188.5" />
+      <point x="482.75" y="126.0" />
+      <point x="600.1388888888889" y="126.0" />
+      <point x="-19.111111111111086" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="410.0" y="208.0" />
+  <SelectedNodes>
+    <node>polyop.Derivation</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
